@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction.lab._02_PointInRectangle;
+package _01_WorkingWithAbstraction._02_PointInRectangle_lab;
 
 public class Point {
     private int x;

@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction.lab._03_StudentSystem;
+package _01_WorkingWithAbstraction._03_StudentSystem_lab;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction.lab._04_HotelReservation;
+package _01_WorkingWithAbstraction._04_HotelReservation_lab;
 
 public class PriceCalculator {
     private double pricePerDay;

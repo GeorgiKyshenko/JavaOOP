@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction.lab;
+package _01_WorkingWithAbstraction;
 
 import java.util.Scanner;
 
