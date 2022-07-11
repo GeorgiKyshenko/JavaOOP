@@ -10,11 +10,12 @@ public class Main {
 
 
         persons.add(new Bulgarian("Peter"));
-        persons.add(new European("Peter"));
-        persons.add(new Chinese("Peter"));
+        persons.add(new European("Georgi"));
+        persons.add(new Chinese("Ivan"));
 
         for (Person person : persons) {
             print(person);
+            System.out.println(person.getName());
         }
     }
 
