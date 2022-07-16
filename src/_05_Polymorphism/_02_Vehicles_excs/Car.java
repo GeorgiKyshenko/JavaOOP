@@ -1,5 +1,7 @@
 package _05_Polymorphism._02_Vehicles_excs;
 
+import java.text.DecimalFormat;
+
 public class Car extends AbstractVehicle implements Vehicle {
     private static final double FUEL_CONSUMPTION_INCREASE = 0.9;
 
@@ -9,10 +11,12 @@ public class Car extends AbstractVehicle implements Vehicle {
     }
 
 
+    DecimalFormat df = new DecimalFormat("0.##");
+
     public String drive(double kilometers) {
         if (fuelQuantity > fuelConsumption * kilometers) {
             fuelQuantity -= fuelConsumption * kilometers;
-            return String.format("Car travelled %.0f km", kilometers);
+            return ("Car travelled " + df.format(kilometers) + " km");
         }
         return "Car needs refueling";
     }
