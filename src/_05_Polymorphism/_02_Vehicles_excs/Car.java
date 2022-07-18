@@ -16,7 +16,7 @@ public class Car extends AbstractVehicle implements Vehicle {
     public String drive(double kilometers) {
         if (fuelQuantity > fuelConsumption * kilometers) {
             fuelQuantity -= fuelConsumption * kilometers;
-            return ("Car travelled " + df.format(kilometers) + " km");
+            return "Car travelled " + df.format(kilometers) + " km";
         }
         return "Car needs refueling";
     }
