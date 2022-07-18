@@ -2,18 +2,17 @@ package S.O.L.I.D_excs.products;
 
 import S.O.L.I.D_excs.Products;
 
-public class Chocolate implements Products {
+public class Chips implements Products {
+    public static final double CALORIES_PER_100_GRAMS = 529.0;
 
-    public static final double CALORIES_PER_100_GRAMS = 575.0;
+    private final double grams;
 
-    private double grams;
-
-    public Chocolate(double grams) {
+    public Chips(double grams) {
         this.grams = grams;
     }
 
     public double getGrams() {
-        return grams;
+        return this.grams;
     }
 
     @Override
