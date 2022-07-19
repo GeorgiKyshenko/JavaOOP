@@ -19,6 +19,17 @@ public class Cat extends Feline {
 
     @Override
     protected void eat(Food foodType) {
+        setFoodEaten(getFoodEaten() + foodType.getQuantity());
+    }
 
+    @Override
+    public String toString() {
+        return String.format("%s[%s, %s %s, %s, %d]",
+                getAnimalType(),
+                getAnimalName(),
+                breed,
+                getDf().format(getAnimalWeight()),
+                getLivingRegion(),
+                getFoodEaten());
     }
 }
