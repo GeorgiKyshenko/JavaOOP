@@ -2,7 +2,7 @@ package _05_Polymorphism._02_Vehicles_excs;
 
 import java.text.DecimalFormat;
 
-public class Bus extends AbstractVehicle implements Vehicle {
+public class Bus extends AbstractVehicle {
 
     private static final double FUEL_CONSUMPTION_WITH_PASSENGERS = 1.4;
 
