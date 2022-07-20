@@ -24,7 +24,7 @@ public class Cat extends Feline {
 
     @Override
     public String toString() {
-        return String.format("%s[%s, %s %s, %s, %d]",
+        return String.format("%s[%s, %s, %s, %s, %d]",
                 getAnimalType(),
                 getAnimalName(),
                 breed,

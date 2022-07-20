@@ -70,7 +70,10 @@ public class Main {
 
             animal.makeSound();
             animal.eat(food);
-            System.out.println(animal);
+        }
+
+        for (int i = 0; i < animals.size(); i++) {
+            System.out.println(animals.get(i));
         }
     }
 }
