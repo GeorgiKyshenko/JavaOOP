@@ -7,7 +7,7 @@ public class Frog extends Animal{
     }
 
     @Override
-    protected String produceSound() {
+    public String produceSound() {
         return "Ribbit";
     }
 }

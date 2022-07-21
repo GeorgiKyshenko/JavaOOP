@@ -46,10 +46,6 @@ public class Main {
 
             animalType = scanner.nextLine();
         }
-        animals.forEach((k, v) -> {
-            System.out.println(k);
-            System.out.println(v);
-            System.out.println(v.produceSound());
-        });
+        animals.values().forEach(System.out::println);
     }
 }

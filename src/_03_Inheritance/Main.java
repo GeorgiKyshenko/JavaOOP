@@ -16,5 +16,16 @@ public class Main {
 
         System.out.println(puppy.getPuppyAge());
         System.out.println(dog.getDogAge());
+
+
+
+        /*Пример за чупене на енкапсулация -> в класа Animal, полето speed e равно на 20.
+        * След като създадем setter за private field се нарушава принципа, защото можем да сетнем стойността
+        * на speed отвън animal.setSpeed(40)*/
+
+        Animal animal = new Animal(23,50);
+        animal.setSpeed(40);
+        System.out.println(animal.getSpeed());
+
     }
 }

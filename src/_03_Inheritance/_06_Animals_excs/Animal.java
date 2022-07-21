@@ -48,10 +48,12 @@ public abstract class Animal {
         }
     }
 
-    protected abstract String produceSound();
+    public String produceSound() {
+        return "";
+    }
 
     @Override
     public String toString() {
-        return String.format("%s %d %s.", getName(), getAge(), getGender());
+        return String.format("%s%n%s %d %s%n%s", this.getClass().getSimpleName(), getName(), getAge(), getGender(),produceSound());
     }
 }
